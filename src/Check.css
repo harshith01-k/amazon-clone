@@ -1,0 +1,53 @@
+.check
+{
+    display:flex;
+    background-color: #fff;
+    padding: 15px 30px;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    
+}
+.info
+{
+    flex: 1;
+}
+.icon-color
+{
+    font-weight: 650;
+}
+.title
+{
+    font-size: 15px;
+    font-weight: 650;
+}
+.finalImg
+{
+    margin-right: 15px;
+    width: 150px;
+}
+.deleteBtn
+{
+    background-color: #f0c14b;
+  cursor: pointer;
+  margin: 10px 0;
+  border: 1px solid #f0c14b;
+  outline: none;
+  padding: 10px 10px;
+  font-weight: 530;
+  border-radius: 2px;
+  transition: all 0.3s ease-in;
+}
+.deleteBtn:hover
+{
+    background: #fff;
+  color: #f0c14b;
+  border: 1px solid #f0c14b;        
+}
+@media (max-width :500px)
+{
+    .check
+    {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+}
